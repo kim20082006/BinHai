@@ -1,0 +1,18 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="jspDemo1:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/jspDemo1_war_exploded</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="jspDemo1" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="file-copy" path="$PROJECT_DIR$/../会用用到的jar包/lib/jackson-all-1.9.0.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../会用用到的jar包/lib/mysql-jdbc.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../会用用到的jar包/lib/fastjson-1.1.37.jar" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="jspDemo1/web/Web" />
+    </root>
+  </artifact>
+</component>
